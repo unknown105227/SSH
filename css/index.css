@@ -455,6 +455,10 @@ main .flex-box #portfolio .WEB #slider {
   border-radius: 10px;
 }
 
+main .flex-box #portfolio .WEB #slider img {
+  width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
   main .flex-box #portfolio .WEB #slider {
     margin: -755px 0px 0px 80px;

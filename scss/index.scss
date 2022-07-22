@@ -331,6 +331,11 @@ main {
 
                  // img moniter js
                  #slider {
+
+                    img {
+                        width: 100%;
+                    }
+                    
                     position: relative;
                     overflow: hidden;
                     margin: -755px 150px 800px 50px;
