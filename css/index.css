@@ -60,6 +60,10 @@ footer {
   display: block;
 }
 
+* a :hover {
+  border-bottom: 2px solid black;
+}
+
 body {
   background-color: #F9E385;
 }
@@ -109,7 +113,7 @@ header img {
 
 header .logo img {
   display: block;
-  width: 70%;
+  width: 100%;
 }
 
 header .logo p {
@@ -125,6 +129,7 @@ header .logo p {
 
 header .title {
   position: absolute;
+  width: 100%;
   -webkit-transform: translate(0%, -112%);
           transform: translate(0%, -112%);
   z-index: -1;
@@ -283,6 +288,10 @@ main .flex-box #SSH-Type ul .OMG {
   position: relative;
   top: -33%;
   margin-left: 40px;
+}
+
+main .flex-box #SSH-Type ul .OMG p {
+  font-size: 22px;
 }
 
 main .flex-box #skill img {
@@ -570,6 +579,11 @@ main .flex-box #portfolio .smart-Phone .smart-Phone-window {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(500px auto);
+}
+
+main .flex-box #portfolio .smart-Phone .smart-Phone-window img {
+  width: 100%;
+  height: 100%;
 }
 
 main .flex-box #portfolio .smart-Phone .smart-Phone-window .box {

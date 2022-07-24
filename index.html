@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE SUNG</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/modal_btn.css">
 	<script src="./js/jquery-2.2.4.min.js"></script>
 	<script src="./js/jquery.parallax-scroll.min.js"></script>
 	<script src="./js/parallax-scroll.js"></script>
     <script src="./js/moniterSlide.js"></script>
-    <style>
-    </style>
+    <script src="./js/modal.js"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -42,7 +43,7 @@
             <section id="self-introduce">
                 <div class="gird-system">
                     <div class="SSH-profile">
-                        <img src="./images/SSH_FACE.png" alt="SSH_FACE">
+                    <img src="./images/SSH_FACE.png" alt="SSH_FACE">
                         <ul class="SSH-MIND">
                             <li><p>#정직한</p></li>
                             <li><p>#성실한</p></li>
@@ -52,19 +53,22 @@
                             <li><p>#창조적인</p></li>
                         </ul>
                     </div>
+
                 </div> <!-- gird-system -->
             </section> <!-- SSH-system -->
-    
+            
             <section id="SSH-Type">
                 <ul>
                     <li>
                         <img src="./images/postIt.png" alt="postIt">
                         <div class="OMG">
-                            <a href="./Portfolio/SSH_profile.pdf" target="_blank"><img src="./images/jobkorea_icon.png" alt=""></a>
+                            <a href="./Portfolio/SSH_profile.pdf" target="_blank"><img src="./images/jobkorea_icon.png" alt="jobkorea_icon"></a>
+                            <br>
+                            <p><b>CAREER: </b>멀티미디어콘텐츠제작 <br>(UI/UX디자인, 영상편집, 모션그래픽)3</p>
                             <img src="./images/pencile.png" alt="pencile">
                         </div>
                     </li>
-                    <li><a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-intj" target="_blank"><img src="./images/mbti_intj.png" alt=""></a></li>
+                    <li><a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-intj" target="_blank"><img src="./images/mbti_intj.png" alt="mbti_intj"></a></li>
                     <li><a href="https://forest-mt.seekrtech.com/?locale=ko" target="_blank"><img src="./images/KANEYEETION.png" alt="KANEYEETION"></a></li>
                 </ul>
             </section> <!-- SSH-Type -->
@@ -173,12 +177,32 @@
 
                         <div class="web-SiteBtn">
                             <a href="./Portfolio/miumiu.pptx" target="_blank"><p>팀 기획서</p></a>
-                            <a href="" target="_blank"><p>팀웹앱 디자인가이드</p></a>
-                            <a href="" target="_blank"><p>팀웹앱</p></a>
-                            <a href="" target="_blank"><p>개인웹앱 디자인가이드</p></a>
+                            <button class="btn-modal"><a href="#modal"><p>팀 디자인가이드</p></a></button>
+                            <a href="../miumiu/index.html" target="_blank"><p>팀 웹앱</p></a>
+                            <a href="" target="_blank"><p>개인 디자인가이드</p></a>
                         </div>
-                    </div> <!-- WEB -->
 
+                        <div id="container">
+                            <h2>Lorem Ipsum</h2>
+                            <div id="lorem-ipsum"></div>
+                        </div>
+                        <div id="modal" class="modal-overlay">
+                            <div class="modal-window">
+                                <div class="title">
+                                    <h2>팀 디자인가이드</h2>
+                                </div>
+                                <div class="close-area">X</div>
+                                <div class="content">
+                                    <p>가나다라마바사 아자차카타파하</p>
+                                    <p>가나다라마바사 아자차카타파하</p>
+                                    <p>가나다라마바사 아자차카타파하</p>
+                                    <p>가나다라마바사 아자차카타파하</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- WEB -->
                 </aside> <!-- portfolio -->
 
                 <aside class="aside-right">
