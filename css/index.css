@@ -181,8 +181,14 @@ header .main-nav li {
 header .main-nav a {
   color: #fff;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 13px;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  header .main-nav a {
+    font-size: 20px;
+  }
 }
 
 header #ms1 {

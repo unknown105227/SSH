@@ -112,8 +112,12 @@ header {
     .main-nav a {
         color: #fff;
         font-family: Arial;
-        font-size: 20px;
+        font-size: 13px;
         text-decoration: none;
+        @include responsive(pc-screens) {
+            font-size: 20px;
+        }
+
     }
     #ms1 {
       background-image: url("../images/bg01.jpg");
